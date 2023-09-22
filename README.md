@@ -1,3 +1,5 @@
+Link do deploy: https://projeto-pokedex-reentrega.vercel.app/
+
 Pokedex - Projeto de Exploração de Pokémon
 O projeto "Pokedex" é uma aplicação que oferece uma experiência completa de exploração do mundo Pokémon. Com recursos de captura, os usuários podem adicionar novos Pokémon à sua coleção, além de acessar detalhes abrangentes sobre cada Pokémon, como estatísticas e habilidades. A flexibilidade de excluir Pokémon da coleção também está disponível. Esta aplicação proporciona uma jornada envolvente para os fãs, permitindo que interajam com os Pokémon de maneiras diversas e significativas.
 
