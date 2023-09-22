@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+Pokedex - Projeto de Exploração de Pokémon
+O projeto "Pokedex" é uma aplicação que oferece uma experiência completa de exploração do mundo Pokémon. Com recursos de captura, os usuários podem adicionar novos Pokémon à sua coleção, além de acessar detalhes abrangentes sobre cada Pokémon, como estatísticas e habilidades. A flexibilidade de excluir Pokémon da coleção também está disponível. Esta aplicação proporciona uma jornada envolvente para os fãs, permitindo que interajam com os Pokémon de maneiras diversas e significativas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Principais Recursos e Funcionalidades
+Integração de APIs: Utilizamos a Poke API como fonte de dados, uma API pública amplamente reconhecida e usada em casos de aprendizado de programação.
 
-## Available Scripts
+React Router: Gerenciamos a navegação entre páginas com o React Router para oferecer uma experiência de usuário suave.
 
-In the project directory, you can run:
+Design Systems: Implementamos um sistema de design para manter uma interface consistente em todo o aplicativo.
 
-### `npm start`
+Estado Global: Usamos o React Context para gerenciar o estado global do aplicativo, permitindo que os dados sejam compartilhados entre componentes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Estrutura do Projeto
+O projeto segue uma estrutura organizada para facilitar o desenvolvimento e a manutenção:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+src: Contém todas as pastas e arquivos do projeto.
 
-### `npm test`
+assets: Armazena imagens dos tipos de Pokémon e outros recursos utilizados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Components: Contém os componentes reutilizáveis do aplicativo.
 
-### `npm run build`
+PokemonCard: Renderiza informações e botões para cada Pokémon.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Header: Cada página possui um header com uma interface específica.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+constants: Mantém a URL padrão da API utilizada.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+contexts: Contém os arquivos de contexto utilizados no projeto.
 
-### `npm run eject`
+Pages: Contém as diferentes páginas da aplicação.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+PokemonListPage: Página inicial com a lista de Pokémon para interação.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+PokemonDetailPage: Página de detalhes de um Pokémon selecionado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+PokedexPage: Página que exibe os Pokémon adicionados à Pokedex.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+routes: Gerencia as rotas do aplicativo.
 
-## Learn More
+coordinator: Retorna funções para navegação entre as páginas, utilizando parâmetros para definir o destino.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Router: Componente que controla a navegação entre as páginas, identificando cada uma com um valor que é passado para o coordenador e utilizado no App.js.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Como Iniciar
+Para começar a usar o aplicativo, siga as etapas abaixo:
 
-### Code Splitting
+Certifique-se de ter o Node.js e o npm instalados em seu sistema.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+No diretório do projeto, execute o comando npm install para instalar as dependências.
 
-### Analyzing the Bundle Size
+Em seguida, inicie o aplicativo com o comando npm run start.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Tecnologias e Ferramentas Utilizadas
+Este site foi construído com as seguintes tecnologias:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React
+React Hooks
+React Router DOM
+React Context API
+Axios para integração com a Poke API
+Styled-Components para estilização
+React Icons para ícones
+Aproveite a jornada de exploração Pokémon com a Pokedex! Divirta-se capturando, explorando detalhes e construindo sua coleção de Pokémon.
