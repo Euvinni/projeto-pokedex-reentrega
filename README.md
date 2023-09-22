@@ -53,6 +53,7 @@ No diretório do projeto, execute o comando npm install para instalar as depend�
 Em seguida, inicie o aplicativo com o comando npm run start.
 
 Tecnologias e Ferramentas Utilizadas
+
 Este site foi construído com as seguintes tecnologias:
 
 React
